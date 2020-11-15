@@ -32,7 +32,7 @@ class TestUser(unittest.TestCase):
 
 class TestCredentials(unittest.TestCase):
 	'''
-	Test class that defines test cases for the credentials class behaviours.
+	Test class that defines test cases for the credentials class.
 
 	Args:
 	    unittest.TestCase: helps in creating test cases
