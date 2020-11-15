@@ -7,7 +7,7 @@ Password Locker is a terminal run python application that will help manage passw
 ## User Stories
 As a user:
 
-* Can create a password locker account with details, a login username and password.
+* I Can create a password locker account with details, a login username and password.
 * I want to store my already existing account credentials in the application. 
 * I want to create new account credentials in the application. 
 * I want to have the option of putting in a password that I want to use for the new credential account.
@@ -33,12 +33,6 @@ As a user:
 * pip
 * pyperclip
 * xclip
-
-### Cloning
-* In your terminal:
-        
-        $ git clone https://github.com/marynganga/Password-Locker/
-        $ cd Password-Locker
 
 ## Running the Application
 * To run the application, in your terminal:
