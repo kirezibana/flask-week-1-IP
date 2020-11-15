@@ -5,11 +5,11 @@
 ## Description
 Password Locker is a terminal run python application that will help manage passwords and generate new passwords.
 ## User Stories
-These are the behaviours/features that the application implements for use by a user.
+These are the features that the application implements for use by a user.
 
 * Can create a password locker account with details, a login username and password.
-* Store my existing login credentials
-* Generate a password for a new credential/account
+* As a user, I want to store my already existing account credentials in the application. 
+* As a user, I want to create new account credentials in the application. 
 * Copy my credentials to the clipboard
 
 ## Specifications
