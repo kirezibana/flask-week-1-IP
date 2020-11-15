@@ -57,7 +57,7 @@ def copy_credential(site_name):
 
 def main():
 	print(' ')
-	print('Hello! Welcome to Password Locker.')
+	print('Welcome to Password Locker.')
 	while True:
 		print(' ')
 		print("-"*60)
@@ -89,14 +89,14 @@ def main():
 				print(' ')
 				while True:
 					print("-"*60)
-					print('Navigation codes: \n cc-Create a Credential \n dc-Display Credentials \n copy-Copy Password \n ex-Exit')
+					print('Navigation codes: \n create-Create a Credential \n dc-Display Credentials \n copy-Copy Password \n ex-Exit')
 					short_code = input('Enter a choice: ').lower().strip()
 					print("-"*60)
 					if short_code == 'ex':
 						print(" ")
 						print(f'Goodbye {user_name}')
 						break
-					elif short_code == 'cc':
+					elif short_code == 'create':
 						print(' ')
 						print('Enter your credential details:')
 						site_name = input('Enter the site\'s name- ').strip()
