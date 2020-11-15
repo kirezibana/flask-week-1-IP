@@ -61,7 +61,7 @@ def main():
 	while True:
 		print(' ')
 		print("-"*60)
-		print('Use these codes to navigate: \n 1-Create an Account \n li-Log In \n ex-Exit')
+		print('Use these codes to navigate: \n 1-Create an Account \n 2-Log In \n ex-Exit')
 		short_code = input('Enter a choice: ').lower().strip()
 		if short_code == 'ex':
 			break
@@ -76,7 +76,7 @@ def main():
 			save_user(create_user(first_name,last_name,password))
 			print(" ")
 			print(f'New Account Created for: {first_name} {last_name} using password: {password}')
-		elif short_code == 'li':
+		elif short_code == '2':
 			print("-"*60)
 			print(' ')
 			print('To login, enter your account details:')
