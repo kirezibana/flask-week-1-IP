@@ -11,6 +11,7 @@ These are the features that the application implements for use by a user.
 * As a user, I want to store my already existing account credentials in the application. 
 * As a user, I want to create new account credentials in the application. 
 * As a user, I want to have the option of putting in a password that I want to use for the new credential account.
+* As a user, I also want to view my various account credentials and their passwords in the application.
 * Copy my credentials to the clipboard
 
 ## Specifications
