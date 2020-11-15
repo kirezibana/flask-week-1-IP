@@ -49,5 +49,5 @@ As a user:
 * Python3.6
 
 ## License
-MIT &copy;2017 [Mary Ng'ang'a](https://github.com/marynganga/)
+MIT &copy;2020 [kirezi bana hortense]
 
