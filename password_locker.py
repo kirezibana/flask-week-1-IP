@@ -30,26 +30,26 @@ def generate_password():
 
 def create_credential(user_name,site_name,account_name,password):
 	'''
-	Function to create a new credential
+	this function help to create a new credential
 	'''
 	new_credential=Credential(user_name,site_name,account_name,password)
 	return new_credential
 
 def save_credential(credential):
 	'''
-	Function to save a newly created credential
+	this function will be used to save a newly created credential
 	'''
 	Credential.save_credentials(credential)
 
 def display_credentials(user_name):
 	'''
-	Function to display credentials saved by a user
+	this function will help us to display credentials saved by a user
 	'''
 	return Credential.display_credentials(user_name)
 	
 def copy_credential(site_name):
 	'''
-	Function to copy a credentials details to the clipboard
+	this function will copy a credentials details to the clipboard
 	'''
 	return Credential.copy_credential(site_name)
 
